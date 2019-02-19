@@ -7,7 +7,7 @@ pastValues = set()
 repeats = 0
 
 while repeats < 200:
-    with open("changes.txt") as f:
+    with open("../changes.txt") as f:
         for line in f:
             value = int(line[1:])
             if line[0] == "+":

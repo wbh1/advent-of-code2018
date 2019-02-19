@@ -1,6 +1,6 @@
 INITIAL = 0
 
-with open("changes.txt") as f:
+with open("../changes.txt") as f:
     lines = 0
     for line in f:
         if line[0] == "+":

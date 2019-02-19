@@ -13,7 +13,7 @@ var (
 )
 
 func main() {
-	f, err := os.Open("changes.txt")
+	f, err := os.Open("../changes.txt")
 	if err != nil {
 		log.Fatal(err)
 	}
